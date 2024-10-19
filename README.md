@@ -1,5 +1,5 @@
 # artcar-ultrasonic-dist-Arduino
-Arduino ultrasonic distance - three sensors, can be front/back-facing temp/humidity correction
+Arduino ultrasonic distance - three sensors, can be front/back-facing and has temp/humidity correction
 
 ** Refactored to Raspberry Pi Pico 2 **
 * https://github.com/bradcar/artcar-ultrasonic-dist-rp2
