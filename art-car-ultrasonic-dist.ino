@@ -436,9 +436,10 @@ void loop() {
       tempCint = int(tempC + 0.5);
       tempFint = int(tempF + 0.5);
       // Speed sound with temp, best I could find was: (20.05 * sqrt(273.16 + tempC))
-      // then went online and found this, then did a 2d linear fit for my formal below, error is +/-0.07% in range
-      // Speed sound calculator: http://resource.npl.co.uk/acoustics/techguides/speedair/
-      // valid over the temp range 0 to 30C temp (273.15 - 303.15 K) and for the pressure range 75 - 102 kPa
+      // Speed sound temp & humidity calculator: http://resource.npl.co.uk/acoustics/techguides/speedair/
+      // using online calculated constructed spreadsheet of values
+      // hten 2d linear fit with formula above to add correction, error is +/-0.07% in range
+      // valid over the temp range 0 to 30C temp & 75 to 102 kPa pressure
       soundSpeed = (20.05 * sqrt(273.16 + tempC)) + (0.0006545 * humidity + 0.00475) * tempC + (0.001057 * humidity + 0.07121);
     }
     if (debug) {
