@@ -13,6 +13,6 @@ My work is based on UPIR's GREAT work: https://github.com/upiir/arduino_parking_
 To see my Art Car, it's the 5th image down in https://en.wikipedia.org/wiki/Art_car  , the one with the caption: "Unofficial BMW Art Car by Tom Cramer..."
 
 Other Useful sites:
-* u8g fonts (fonts available for u8g library): https://nodemcu-build.com/u8g-fonts.php
 * u8g documentation: https://github.com/olikraus/u8glib/wiki/userreference
+  * u8g fonts (fonts available for u8g library): https://nodemcu-build.com/u8g-fonts.php
 * image2cpp (convert images into C code): https://javl.github.io/image2cpp/
