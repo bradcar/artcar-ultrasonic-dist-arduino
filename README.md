@@ -16,6 +16,7 @@ Other Useful sites:
 * u8g documentation: https://github.com/olikraus/u8glib/wiki/userreference
   * u8g fonts (fonts available for u8g library): https://nodemcu-build.com/u8g-fonts.php
 * image2cpp (convert images into C code): https://javl.github.io/image2cpp/
+* waterproof sensors: https://www.youtube.com/watch?v=h6321UBATps
 
 Note: Temp & humidity correction for the speed of sound
 * speed of sound going from 0C to 30C goes from 331.48 m/s to 351.24 m/s (~ 6%)
